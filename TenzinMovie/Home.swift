@@ -34,6 +34,7 @@ struct Home: View {
                     Text(
                         Constants.DownloadString
                     )
+                    .ghostButton()
                 }
             }
         }
