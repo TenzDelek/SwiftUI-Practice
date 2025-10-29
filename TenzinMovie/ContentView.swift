@@ -10,18 +10,18 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView{
-            Tab("Home",systemImage: "house"){
+            Tab(Constants.homeString,systemImage: "house"){
                 Text("Home")
             }
-            Tab("Text",systemImage: "text.document"){
+            Tab(Constants.textString,systemImage: "text.document"){
                 Text("Textpage")
             }
-            Tab("ananda",systemImage: "ellipses.bubble.fill"){
+            Tab(Constants.chatbotString,systemImage: "ellipses.bubble.fill"){
                 Text("Chatbot")
             }
-            Tab("Plan",systemImage: "books.vertical"){
+            Tab(Constants.planString,systemImage: "books.vertical"){
             }
-            Tab("Setting",systemImage: "gear"){
+            Tab(Constants.settingSting,systemImage: "gear"){
                 Text("Home")
             }
         }
